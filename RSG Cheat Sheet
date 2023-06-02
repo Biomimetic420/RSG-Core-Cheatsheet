@@ -1,0 +1,154 @@
+```lua
+-- Needs to be at the top of every script
+
+local RSGCore = exports['rsg-core']:GetCoreObject()
+
+--Client Side
+hospital:server:SetDeathStatus
+
+RSGCore:Client:OnPlayerLoaded
+
+RSGCore:Notify
+
+RSGCore:Notify
+
+RSGCore:Notify
+
+RSGCore.Functions.GetPlayerData
+
+RSGCore:Player:SetPlayerData
+
+RSGCore.Functions.TriggerCallback
+
+RSGCore.Functions.DeleteVehicle
+
+RSGCore.Functions.GetClosestPed
+
+RSGCore.Functions.GetClosestPlayer
+
+RSGCore.Functions.GetClosestVehicle
+
+RSGCore.Functions.GetPlayers
+
+RSGCore.Functions.GetVehicles
+
+RSGCore.Functions.SetVehicleProperties
+
+RSGCore.Functions.SpawnVehicle
+
+--Server Side
+RSGCore.Functions.GetPlayer
+
+RSGCore.Functions.GetPlayerByCitizenId
+
+RSGCore.Functions.GetPlayers
+
+RSGCore.Functions.CreateCallback
+
+RSGCore.Functions.CreateUseableItem
+
+RSGCore.Player.Save
+
+RSGCore.Functions.UseItem
+
+-- xPlayer
+
+xPlayer.Functions.AddMoney (account)
+
+xPlayer.Functions.AddItem (item name)
+
+xPlayer.Functions.AddMoney (cash)
+
+xPlayer.Functions.AddItem (weapon name)
+
+xPlayer.Functions.AddItem (ammo name)
+
+xPlayer.Functions.AddItem (component name)
+
+xPlayer.Functions.GetPermission
+
+xPlayer.Functions.GetIdentifier
+
+RSGCore.Player.LoadInventory
+
+xPlayer.Functions.GetItemByName
+
+xPlayer.Player.GetTotalWeight
+
+xPlayer.Functions.GetItemByName (weapon name)
+
+xPlayer.Functions.Kick
+
+xPlayer.Functions.RemoveMoney (account)
+
+xPlayer.Functions.RemoveItem (item name)
+
+xPlayer.Functions.RemoveMoney (cash)
+
+xPlayer.Functions.RemoveItem (weapon name)
+
+xPlayer.Functions.RemoveItem (ammo name)
+
+xPlayer.Functions.RemoveItem (component name)
+
+xPlayer.Functions.SetMoney (account)
+
+xPlayer.Functions.AddItem (item name)
+
+xPlayer.Functions.SetJob
+
+xPlayer.Functions.SetMoney
+
+TriggerClientEvent('RSGCore:Notify')
+
+TriggerClientEvent('RSGCore:Notify')
+
+--Events
+RSGCore:Client:OnJobUpdate
+
+RSGCore:Client:OnPlayerLoaded
+
+RSGCore:Client:OnPlayerLoaded (spawnmanager compatibility)
+
+RSGCore:Server:AddItem
+
+RSGCore:Server:RemoveItem
+
+RSGCore:Server:UseItem
+
+--oxmysql
+oxmysql:execute('UPDATE...
+
+oxmysql:execute('DELETE...
+
+oxmysql:fetch('SELECT...
+
+oxmysql:insert('INSERT...
+
+.oxmysql:execute('UPDATE...
+
+.oxmysql:execute('DELETE...
+
+.oxmysql:fetch('SELECT...
+
+.oxmysql:insert('INSERT...
+
+--SQL Export
+exports.oxmysql:execute
+
+exports.oxmysql:executeSync
+
+exports.oxmysql:scalar
+
+exports.oxmysql:scalarSync
+
+exports.oxmysql:execute
+
+exports.oxmysql:execute
+
+exports.oxmysql:executeSync
+
+exports.oxmysql:scalar
+
+exports.oxmysql:insert
+```
